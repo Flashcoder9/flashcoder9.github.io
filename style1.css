@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    height: 400px;
+	  width: 400px;
+	  padding: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Loesung {
+    color: black;
+}
+
+.Loesung:hover {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 42px #0fa, 0 0 82px #0fa,0 0 92px #0fa;
+	color: white;
+	font-size: 30px;
+	text-align: center;	  	
+   }
+
+   .Ll {
+    color: aliceblue;
+   }

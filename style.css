@@ -1,0 +1,232 @@
+body {
+    background-color: lavenderblush;
+    font-family: Arial, Helvetica, sans-serif;
+    pointer-events: visibleStroke;
+}
+
+.chess {
+   color: lavenderblush; 
+   text-decoration: underline;
+}
+
+.chess:hover {
+    animation-name: chess;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes chess {
+
+    1% {
+        color: black;
+    }
+
+    20% {
+        color: green;
+    }
+
+    
+    40% {
+        color: black;
+    }
+
+    60% {
+        color: green;
+    }
+
+    
+    80% {
+        color: black;
+    }
+
+    100% {
+        color: green;
+    }
+
+}
+
+.sch:hover {
+  color: yellowgreen; 
+  display: flex; 
+  justify-content: center;
+}
+.b{
+    animation-name: Augenkrebs;
+    animation-duration: 2s;
+    animation-iteration-count:infinite ;
+}
+
+@keyframes Augenkrebs {
+1% {
+    color: aqua;
+}
+10% {
+    color: brown;
+}
+20% {
+color: blue;
+
+}
+40% {
+    color: chartreuse;
+
+}
+60% {
+    color: yellow;
+
+}
+80% {
+    color: firebrick;
+
+}
+100% {
+color: darkgreen;
+
+}
+
+}
+
+.TEXT {
+color: dimgray;
+position: absolute;
+left: 300px;
+}
+.text {
+    color: dimgray;
+    position: absolute;
+    left: 280px;
+}
+
+.Ultimatum  {
+color: lavenderblush;
+text-decoration: underline;
+
+}
+.Ultimatum:hover {
+    animation-name: lichess;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes lichess {
+
+    1% {
+        color: white;
+    }
+
+    20% {
+        color: brown;
+    }
+
+    
+    40% {
+        color:  white;
+    }
+
+    60% {
+        color: brown;
+    }
+
+    
+    80% {
+        color: white;
+    }
+
+    100% {
+        color: brown;
+    }
+
+}
+
+.video {
+position: absolute;
+left: 700px
+}
+.Schachregeln {
+color: black;
+    text-decoration: underline;
+    text-decoration-color: lavenderblush;
+}
+
+.Taktikaufgaben {
+    color: black;
+}
+
+.Taktikaufgaben:hover {
+    color: rgb(10, 245, 245);
+    animation-name: animation_blink;
+    animation-timing-function: ease-in;
+    animation-duration: 3.5s; 
+    animation-iteration-count: infinite;            
+}
+
+@keyframes animation_blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.1; }
+    100% { opacity: 1; }    
+}         
+
+@keyframes animation_blink {
+1% {
+    color: aqua;
+}
+
+10% {
+    color: aquamarine;
+}
+
+20% {
+    color: greenyellow;
+}
+
+30% {
+    color: green;
+}
+
+40% {
+    color: blue;
+}
+
+50% {
+    color: blueviolet;
+}
+
+60% {
+    color: rebeccapurple;
+}
+
+70% {
+    color: brown;
+}
+
+80% {
+    color: red;
+}
+
+90% {
+    color: orange;
+}
+
+95% {
+    color: yellow;
+}
+
+100% {
+    color: yellowgreen;
+}
+
+}
+
+.Tipp {
+    color: lavenderblush;
+}
+.Tipp:hover {
+    color: black;
+}
+
+.Weiter {
+    color: red;
+    
+}
+  
+  
